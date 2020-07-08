@@ -1,0 +1,17 @@
+*{
+
+  }
+
+.color{
+color: tomato;               /*descripcion*/
+}
+
+.verde {
+color: rgb(110, 184, 0);            /*rgb*/
+
+}
+
+.celeste {
+color: #00FFFF;                         /*Exadecimal*/
+
+}
