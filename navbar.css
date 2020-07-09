@@ -1,14 +1,15 @@
 .nav-enlace{
+display: inline-block;
 background: salmon;
 color: #ffffff;
 padding: 10px 30px;
-display: inline-block;
 text-decoration: none;
+margin: 5px;
 
 }
 
 .nav-enlace:hover{
-background: slateblue;
+background: #AFEEEE;
 
 
 }
@@ -16,4 +17,39 @@ background: slateblue;
 nav{
 background: slateblue;
 padding: 10px;
+display: flex;
+justify-content: space-around;
 }
+
+
+.navbotton{
+background: salmon;
+color: #fff;
+padding: 10px 0;
+border: 2px solid white;
+display: none;
+}
+
+@media (max-width: 600px) {
+
+      nav {
+          background: black;
+         flex-direction: column;
+
+
+      }
+.nav-enlace {
+margin: 10px 0;
+
+}
+
+.navbotton{
+  display: inline-block
+}
+
+.desaparece{
+display: none;
+
+}
+
+  }

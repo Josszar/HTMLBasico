@@ -11,11 +11,11 @@
 <body>
 
   <nav>
-    <a href="#" class="nav-enlace">Inicio</a>
-    <a href="#" class="nav-enlace">Nosotros</a>
-    <a href="#" class="nav-enlace">Contacto</a>
-    <a href="#" class="nav-enlace">Servicios</a>
-
+    <button class="navbotton" onclick="accion()">Menú</button>
+    <a href="#" class="nav-enlace desaparece">Inicio</a>
+    <a href="#" class="nav-enlace desaparece">Nosotros</a>
+    <a href="#" class="nav-enlace desaparece">Servicios</a>
+    <a href="#" class="nav-enlace desaparece">Contacto</a>
 
 
 
@@ -24,7 +24,18 @@
 
 
 
+  <script>
+    function accion() {
+      console.log('estafuncionando mi boton');
+      var ancla = document.getElementsByClassName('nav-enlace');
+      for (var i = 0; i < ancla.length; i++) {
+        ancla[i].classList.toggle('desaparece');
+      }
 
+    }
+
+
+  </script>
 </body>
 
 </html>

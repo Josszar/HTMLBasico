@@ -1,0 +1,16 @@
+button{
+background: #6a2c70;
+color: #e4e3e3;
+
+}
+
+button:hover{
+background: #e8505b;
+color: greenyellow;
+
+}
+
+button:active{
+background: hotpink;
+
+}
